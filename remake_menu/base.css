@@ -1,0 +1,110 @@
+@charset 'UTF-8';
+/* 
+
+This will be the base css for every html page.
+
+*/
+
+/* HTML and Body styles */
+html{
+    background-image: url(chinese_lanterns.jpeg);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+    
+}
+
+body{
+    background-color: #8D0801;
+    margin-top: 0px;
+    height: fit-content;
+    box-shadow: 5px 5px 40px black, -5px -5px 40px black;
+}
+
+header h1{
+    background-color: #570302;
+    color: gold;
+    margin: 0px;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    padding: 10px;
+    font-size: em;
+}
+
+
+/* Navigation links */
+
+ul{
+    background-color: black;
+    list-style-type: none;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+  }
+
+li{
+    float: left;
+    /* 100 / 9 = 11.11; there are 9 items in the nav */
+    width: 11.11%;
+    height: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+li:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    transform: translateY(50%);
+}
+
+li:hover{
+    background-color: darkred;
+    color: goldenrod;
+  }
+
+
+/* Cursor Styles */
+ul#menuOptions, ul#menuOptions li, ul#menuOptions li a{
+    cursor: pointer;
+}
+
+#menuContainer{
+    cursor: default;
+}
+
+/* Welcome Page Styles */
+div#welcomeMessage {
+    height: 90vh;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+div#welcomeMessage h2{
+    font-size: 3.5em;
+    color: gold;
+}
+
+div#welcomeMessage h3{
+    font-size: 1em;
+    color: gold;
+    font-style: italic;
+}
+/* Menu Container Styles */
+div#menuContainer{
+    height: max-content;
+    text-align: center;
+    color: gold;
+}
+

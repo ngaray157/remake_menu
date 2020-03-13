@@ -1,0 +1,62 @@
+
+||*****************************************************************||
+Div outline
+
+<div class="appetizerBox" id="menuContainer">
+    <div id="menuTitleBox" class="centeredHorBox">
+        <h2 id="menuTitle">Appetizers</h2>
+    </div>
+    <div id="appetizerMeals" class="subSectionBox">
+        <div id="menuItems" class="leftHorBox">
+            <dl id="menuItemList">
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItems">name</dt>
+                <dd id="desc" class="menuItemDesc">descriptions</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+
+                <dt id="name" class="menuItem">name</dt>
+                <dd id="desc" class="menuItemDesc">description</dd>
+            </dl>
+        </div>
+    </div>
+</div>
